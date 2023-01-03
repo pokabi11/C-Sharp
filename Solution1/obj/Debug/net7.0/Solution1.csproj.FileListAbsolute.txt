@@ -1,0 +1,15 @@
+/Users/pokabi/Projects/Solution1/Solution1/bin/Debug/net7.0/Solution1
+/Users/pokabi/Projects/Solution1/Solution1/bin/Debug/net7.0/Solution1.deps.json
+/Users/pokabi/Projects/Solution1/Solution1/bin/Debug/net7.0/Solution1.runtimeconfig.json
+/Users/pokabi/Projects/Solution1/Solution1/bin/Debug/net7.0/Solution1.dll
+/Users/pokabi/Projects/Solution1/Solution1/bin/Debug/net7.0/Solution1.pdb
+/Users/pokabi/Projects/Solution1/Solution1/obj/Debug/net7.0/Solution1.csproj.AssemblyReference.cache
+/Users/pokabi/Projects/Solution1/Solution1/obj/Debug/net7.0/Solution1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/pokabi/Projects/Solution1/Solution1/obj/Debug/net7.0/Solution1.AssemblyInfoInputs.cache
+/Users/pokabi/Projects/Solution1/Solution1/obj/Debug/net7.0/Solution1.AssemblyInfo.cs
+/Users/pokabi/Projects/Solution1/Solution1/obj/Debug/net7.0/Solution1.csproj.CoreCompileInputs.cache
+/Users/pokabi/Projects/Solution1/Solution1/obj/Debug/net7.0/Solution1.dll
+/Users/pokabi/Projects/Solution1/Solution1/obj/Debug/net7.0/refint/Solution1.dll
+/Users/pokabi/Projects/Solution1/Solution1/obj/Debug/net7.0/Solution1.pdb
+/Users/pokabi/Projects/Solution1/Solution1/obj/Debug/net7.0/Solution1.genruntimeconfig.cache
+/Users/pokabi/Projects/Solution1/Solution1/obj/Debug/net7.0/ref/Solution1.dll
