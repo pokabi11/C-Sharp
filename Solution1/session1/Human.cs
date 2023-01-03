@@ -14,7 +14,7 @@ namespace Solution1.session1
 			Console.WriteLine("Eating " + name);
 		}
 
-		public void Drink()
+		public void Run()
 		{
 			Console.WriteLine(this.name + " is a " + age + " years old");
 		}
