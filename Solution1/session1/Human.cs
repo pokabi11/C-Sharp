@@ -3,21 +3,41 @@ namespace Solution1.session1
 {
 	public class Human
 	{
-		public Human(){ }
 		public string name;
 		public int age;
-		public int height;
-		public int weight;
+
+		private string address;
+
+		public Human()
+		{
+			Console.WriteLine("Human: Hello world");
+		}
+
+		public Human(string name,int age, string address)
+		{
+			this.name = name;
+			this.address = address;
+			this.age = age;
+		}
+
+		~Human() // destructor
+		{
+			
+		}
 
 		public void Eat()
 		{
-			Console.WriteLine("Eating " + name);
+			Console.WriteLine("Eating..");
+		}
+
+		public string Eat(string msg)
+		{
+			return "Human: "+ msg;
 		}
 
 		public void Run()
 		{
-			Console.WriteLine(this.name + " is a " + age + " years old");
+			Console.WriteLine(this.name + " running..");
 		}
 	}
 }
-
