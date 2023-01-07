@@ -1,9 +1,35 @@
 ﻿using Solution1.session1;
 using Solution1.session2;
 using System.Collections.Generic;
+using Solution1.session3;
 public class Program
 {
     public static void Main(string[] args)
+    {
+        Car c = new Car(){Brand = "BMW",Type = "i8"};
+        Console.WriteLine(c.machines[0]);
+        Console.WriteLine(c[1]);
+        // Console.WriteLine(c[2]);
+        // c[2] = "x9"; khi chạy sẽ báo lỗi
+        c.machines.Add("Led");
+        try
+        {
+            int x = 10;
+            int y = 0;
+            if (y == 0)
+            {
+                throw new Exception("Error, y = 0");
+            }
+            Console.WriteLine("x / y = ");
+            int z = x / y;
+            Console.WriteLine(z);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+        }
+    }
+    public static void Main3(string[] args)
     {
         //Dog d = new Dog();
         //d.SetKind("DOG");
@@ -80,4 +106,9 @@ public class Program
         h.name = "Nguyen Van An";
         h.Run();
     }
+}
+
+namespace Solution1.session3
+{
+    
 }
