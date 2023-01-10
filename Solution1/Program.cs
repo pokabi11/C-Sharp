@@ -6,6 +6,26 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        PrintString ps = new PrintString(ShowDanger);
+        
+        ps+= DemoDelegate.Alert();
+        ps+= new DemoDelegate().ShowMessage;
+        ps("Nguy hiem lam xd");
+    }
+    ps += (s) =>{
+        Console.WriteLine("Giau ten: " + s);
+        }
+        ps+= delegate (string s){
+            Console.WriteLine("Giau ten: " + s);
+        };
+        
+    public static void ShowDanger()
+    {
+        Console.WriteLine("Danger: " + mg);
+    }
+
+    public static void Main3(string[] args)
+    {
         Car c = new Car(){Brand = "BMW",Type = "i8"};
         Console.WriteLine(c.machines[0]);
         Console.WriteLine(c[1]);
