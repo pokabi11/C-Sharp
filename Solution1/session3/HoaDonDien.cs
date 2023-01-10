@@ -11,7 +11,7 @@ namespace Solution1.session3
             public double cost{get; set; }
             public virtual void ThanhTien() { }
         }
-
+        //test
         class KHVN : KH //danh cho khach hang Vietnam
         {
             public string usecase{get; set; }
