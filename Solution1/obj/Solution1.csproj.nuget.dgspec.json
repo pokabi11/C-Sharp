@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RAZER\\source\\repos\\pokabi11\\C-Sharp\\Solution1\\Solution1.csproj": {}
+    "C:\\Users\\RAZER\\RiderProjects\\C-Sharp\\Solution1\\Solution1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RAZER\\source\\repos\\pokabi11\\C-Sharp\\Solution1\\Solution1.csproj": {
+    "C:\\Users\\RAZER\\RiderProjects\\C-Sharp\\Solution1\\Solution1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RAZER\\source\\repos\\pokabi11\\C-Sharp\\Solution1\\Solution1.csproj",
+        "projectUniqueName": "C:\\Users\\RAZER\\RiderProjects\\C-Sharp\\Solution1\\Solution1.csproj",
         "projectName": "Solution1",
-        "projectPath": "C:\\Users\\RAZER\\source\\repos\\pokabi11\\C-Sharp\\Solution1\\Solution1.csproj",
+        "projectPath": "C:\\Users\\RAZER\\RiderProjects\\C-Sharp\\Solution1\\Solution1.csproj",
         "packagesPath": "C:\\Users\\RAZER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RAZER\\source\\repos\\pokabi11\\C-Sharp\\Solution1\\obj\\",
+        "outputPath": "C:\\Users\\RAZER\\RiderProjects\\C-Sharp\\Solution1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

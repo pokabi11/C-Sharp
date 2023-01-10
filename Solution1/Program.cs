@@ -2,29 +2,48 @@
 using Solution1.session2;
 using System.Collections.Generic;
 using Solution1.session3;
+using Solution1.session4;
 public class Program
 {
     public static void Main(string[] args)
     {
+        //DemoDelegate.Alert("Cam thanh vien duoi 18 tuoi");
+        //DemoDelegate d = new DemoDelegate();
+        //d.ShowMessage("Canh bao lan thu nhat");
         PrintString ps = new PrintString(ShowDanger);
-        
-        ps+= DemoDelegate.Alert();
-        ps+= new DemoDelegate().ShowMessage;
-        ps("Nguy hiem lam xd");
-    }
-    ps += (s) =>{
-        Console.WriteLine("Giau ten: " + s);
-        }
-        ps+= delegate (string s){
-            Console.WriteLine("Giau ten: " + s);
+        //ps("Nguy hiem lam");
+        //ShowDanger("Nguy hiem lam");
+        //PrintString ps1 = new PrintString(DemoDelegate.Alert);
+        // PrintString ps2 = new PrintString(new DemoDelegate().ShowMessage);
+
+        ps += DemoDelegate.Alert;
+        ps += new DemoDelegate().ShowMessage;
+
+        ps("Nguy hiem lam");
+
+        ps += (s) =>
+        {
+            Console.WriteLine("Anonymus: " + s);
         };
-        
-    public static void ShowDanger()
+
+        ps += delegate (string s) {
+            Console.WriteLine("Anonymus2: " + s);
+        };
+
+        PrintString ps3 = delegate (string s){
+
+        };
+
+        DemoEvent.Button de = new DemoEvent.Button(ps3);
+        de.ClickAction();
+    }
+
+    public static void ShowDanger(string mg)
     {
         Console.WriteLine("Danger: " + mg);
     }
 
-    public static void Main3(string[] args)
+    public static void Main4(string[] args)
     {
         Car c = new Car(){Brand = "BMW",Type = "i8"};
         Console.WriteLine(c.machines[0]);

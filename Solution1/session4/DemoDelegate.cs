@@ -1,5 +1,5 @@
 using System;
-namespace Solution.session4
+namespace Solution1.session4
 {
     public delegate void PrintString(string s);
 
@@ -9,6 +9,10 @@ namespace Solution.session4
         {
             Console.WriteLine("Show Info: " + msg);
         }
-        public static void Alert 
+
+        public static void Alert(string str)
+        {
+            Console.WriteLine("Alert: " + str);
+        }
     }
 }

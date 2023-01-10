@@ -1,18 +1,19 @@
-﻿namespace Solution.session4;
+﻿namespace Solution1.session4;
 
 public class DemoEvent
 {
-    public event PrintString Action;
-
-    public DemoEvent(PrintString fuctionName)
+    public class Button
     {
-        Action += fuctionName;
-    }
-}
-    }
+        public event PrintString Action;
 
-    public void ClickAction()
-    {
-        Action("Click Here");
+        public Button(PrintString functionName)
+        {
+            Action += functionName;
+        }
+
+        public void ClickAction()
+        {
+            Action("Click here");
+        }
     }
 }
