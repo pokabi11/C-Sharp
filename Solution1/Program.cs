@@ -7,14 +7,16 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        //DemoDelegate.Alert("Cam thanh vien duoi 18 tuoi");
-        //DemoDelegate d = new DemoDelegate();
-        //d.ShowMessage("Canh bao lan thu nhat");
+                //DemoDelegate.Alert("Cam thanh vien duoi 18 tuoi");
+                //DemoDelegate d = new DemoDelegate();
+                //d.ShowMessage("Canh bao lan thu nhat");
+
         PrintString ps = new PrintString(ShowDanger);
-        //ps("Nguy hiem lam");
-        //ShowDanger("Nguy hiem lam");
-        //PrintString ps1 = new PrintString(DemoDelegate.Alert);
-        // PrintString ps2 = new PrintString(new DemoDelegate().ShowMessage);
+         
+               //ps("Nguy hiem lam");
+                //ShowDanger("Nguy hiem lam");
+                //PrintString ps1 = new PrintString(DemoDelegate.Alert);
+                // PrintString ps2 = new PrintString(new DemoDelegate().ShowMessage);
 
         ps += DemoDelegate.Alert;
         ps += new DemoDelegate().ShowMessage;

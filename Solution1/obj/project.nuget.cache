@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZOkUVuEiJOEr1ZsqbI+Eu7f9S7fErYsgGr+7KlKB0Y8gTQqMqrAk9DhEOOWwLwpkK/iVn1H68zSoWGnI3lKBaw==",
+  "dgSpecHash": "GyEzCPxbRcKIZHkrAQzcunvxgnul0p0SN5+EgOtA1Yv+1c9pSdE9ZdCzUFQ6KYrUJTI8pH5v4LCArRXNLsxyLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RAZER\\RiderProjects\\C-Sharp\\Solution1\\Solution1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\RAZER\\source\\Repos\\C-Sharp\\Solution1\\Solution1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RAZER\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
