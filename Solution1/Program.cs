@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static void Main9(string[] args)
     {
         Thread t1 = new Thread(RunThread);
         t1.Start("Xin chao");
