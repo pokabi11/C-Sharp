@@ -8,8 +8,6 @@ public class Cylinder
     private double LateralArea { get; set; }
     private double TotalArea { get; set; }
     private double Volume { get; set; }
-    
-    public Cylinder(){}
 
     public Cylinder(double radius, double height)
     {
